@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class main{
+	public static void main(String[] args){
+	Scanner sc = new Scanner(System.in);
+	String V = sc.next();
+	double S = sc.nextDouble();
+	double VE = sc.nextDouble();
+	double T = S + VE*0.15;
+	System.out.printf("Vendedor = " +V + "\n");
+	System.out.printf("TOTAL = R$ %.2f\n", T);
+	}
+}
