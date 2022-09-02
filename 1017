@@ -3,8 +3,8 @@ public class Main{
         public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int vm = sc.nextInt();
-        int t = sc.nextInt();
-        int Km = t*vm;
+        int tempo = sc.nextInt();
+        int Km = tempo*vm;
         double lg = Km/12.0;
         System.out.printf("%.3f%n", lg);
         }
