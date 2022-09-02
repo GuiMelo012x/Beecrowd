@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class main{
+	public static void main(String[] args){
+	Scanner sc = new Scanner(System.in);
+	int N = sc.nextInt();
+	int H = sc.nextInt();
+	double S = H * sc.nextDouble();
+	String E = sc.next();
+	System.out.printf("NUMBER = %d\n", N);
+	System.out.printf("SALARY = U$ %.2f\n", S);
+	System.out.printf("EMPLOYEE = "+E);
+	}
+}
