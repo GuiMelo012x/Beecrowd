@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int ano = N/365;
+        N = N%365; 
+        System.out.printf("%d ano(s)\n", ano);
+        int mes = N/30;
+        N = N%30;
+        System.out.printf("%d mes(es)\n", mes);
+        int dia = N/1;
+        System.out.printf("%d dia(s)\n",dia);
+    }
+}
