@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);
+        int H,M,S,N,H1,M1,S1;
+        N = sc.nextInt();
+        
+        H = N/3600;
+        H1 = N%3600;
+        
+        M = H1/60;
+        M1 = H1%60;
+
+        S = M1/60;
+        S = M1%60;
+        System.out.println(H + ":" + M + ":" + S);
+    }
+}
