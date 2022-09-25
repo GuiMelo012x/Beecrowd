@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);
+        double N = sc.nextDouble();
+        double Q = sc.nextDouble();
+        if(N==1){
+            System.out.printf("Total: R$ %.2f\n",Q*4);
+        }
+        if(N==2){
+            System.out.printf("Total: R$ %.2f\n",Q*4.50);
+        }
+        if(N==3){
+            System.out.printf("Total: R$ %.2f\n",Q*5);
+        }
+        if(N==4){
+            System.out.printf("Total: R$ %.2f\n",Q*2);
+        }
+        if(N==5){
+            System.out.printf("Total: R$ %.2f\n",Q*1.50);
+    }
+}
+}
