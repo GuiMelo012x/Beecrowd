@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) throws Exception {
+    Scanner sc = new Scanner(System.in);
+    double N = sc.nextDouble(); 
+    if (N>=0 && N<=25.0){
+        System.out.println("Intervalo [0,25]");
+    }
+    if (N>=25.01 && N<=50.0){
+        System.out.println("Intervalo [25,50]");
+    }
+    if (N>=50.01 && N<=75.0){
+        System.out.println("Intervalo [50,75]");
+    }
+    if (N>=75.01 && N<=100.0){
+        System.out.println("Intervalo [75,100]");
+    }
+    if (0>N){
+        System.out.println("Fora de intervalo");
+    }
+}  
+}
